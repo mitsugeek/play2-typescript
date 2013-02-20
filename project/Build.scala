@@ -14,7 +14,7 @@ object PluginBuild extends Build {
       //"play" %% "play" % "2.0.3",
       "org.scalatest" %% "scalatest" % "1.7.1" % "test"
     ),
-    addSbtPlugin("play" % "sbt-plugin" % "2.0.3"),
+    addSbtPlugin("play" % "sbt-plugin" % "2.1.0"),
     organization := "com.github.mumoshu",
     version := "0.1.3-SNAPSHOT",
     publishTo <<= version { v: String =>
