@@ -7,7 +7,7 @@ object PluginBuild extends Build {
     id = "play2-typescript", base = file(".")
   ).settings(
     sbtPlugin := true,
-    scalaVersion := "2.9.1",
+    scalaVersion := "2.9.2",
     description := "SBT plugin for handling TypeScript assets in Play 2",
     resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/",
     libraryDependencies ++= Seq(
